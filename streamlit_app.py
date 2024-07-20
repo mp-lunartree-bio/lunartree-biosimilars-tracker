@@ -8,7 +8,7 @@ from openai import AzureOpenAI
 from streamlit_modal import Modal
 from sentence_transformers import SentenceTransformer
 
-from llm_agent import query_embeddings, get_prompt_template
+from llm_agent import query_embeddings, get_prompt_template, get_memory_prompt_template
 
 # Set page configuration to wide mode
 st.set_page_config(layout="wide")
@@ -247,10 +247,6 @@ def trial_view():
 sponsor_prompt = """Given the user's message, provide a 1-3 word phrase to search for the most relevant sponsors in the database.
                     Response with just "None" if the message doesn't mention anything about a sponsor name."""
 
-memory_prompt = """Using the user's messages, including the latest question and previous context, create a concise 1-2 sentence query 
-                    that captures the essence of the questions and context. Do not answer the question. 
-                    Emphasize key elements, such as sponsor names, disease names, and drug names, by repeating them."""
-
 
 def handle_prompt():
     prompt = st.chat_input("What are you looking for?")
@@ -289,13 +285,18 @@ def handle_prompt():
 
             print([(v['id'], v['score']) for v in response])
 
-        response = client.chat.completions.create(
-            model='lunartree-gpt-35-turbo-2',
-            messages=[{"role": "system", "content": memory_prompt}] + st.session_state.messages[-5:],
-        )
+        memory_prompt = get_memory_prompt_template(st.session_state.messages[-5:])
 
-        query = response.choices[0].message.content
-        print(f"Refined Query: {query}\n\n")
+        if len(memory_prompt):
+            response = client.chat.completions.create(
+                model='lunartree-gpt-35-turbo-2',
+                messages=[{"role": "user", "content": memory_prompt}],
+            )
+
+            query = response.choices[0].message.content
+            print(f"Refined Query: {query}\n\n")
+        else:
+            query = prompt
 
         context_trials = []
 

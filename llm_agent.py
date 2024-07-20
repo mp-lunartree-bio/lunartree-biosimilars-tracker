@@ -46,9 +46,27 @@ def get_prompt_template(message, context_trials):
 
     **Question:**
     {message}
-
-    If the answer involves a list, format it as a bullet list. 
+ 
     If the relevant trials do not address the question, respond with general knowledge, clarify that the response is not from the dashboard, and note that the chatbot is designed to answer questions about biosimilars trials.
     Even if the relevant trials address the question, add information from your general knowledge to answer the question more richly. 
+    """
+    return template
+
+def get_memory_prompt_template(messages):
+    if (len(messages)) == 0:
+        return ""
+
+    template = f"""
+    Create a concise 1-2 sentence query that captures the essence of the given question. 
+    Use the old messages to only fill any missing information. But the core goal is answering the question.
+    
+    **Question:**
+    {messages[-1]['content']}
+
+    **Old messages:**
+    {messages[-5:-1]}
+
+    ONLY CREATE A MORE CONCISE AND REFINED QUESTION. Do not add anything made up to the question. 
+    Do not add any unrelated context from the old messages that is not required to answer the question.
     """
     return template
