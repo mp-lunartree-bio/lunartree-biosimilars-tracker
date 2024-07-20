@@ -1,8 +1,25 @@
-import streamlit as st
-import pandas as pd
+import os
 import json
+import pandas as pd
+import streamlit as st
 import plotly.express as px
+
+from openai import AzureOpenAI
 from streamlit_modal import Modal
+from sentence_transformers import SentenceTransformer
+
+from llm_agent import query_embeddings, get_prompt_template
+
+# Set page configuration to wide mode
+st.set_page_config(layout="wide")
+
+@st.cache_resource  # 👈 Add the caching decorator
+def load_model():
+    return SentenceTransformer("all-MiniLM-L6-v2")
+
+@st.cache_resource  # 👈 Add the caching decorator
+def load_pubmed_model():
+    return SentenceTransformer("neuml/pubmedbert-base-embeddings")
 
 # Load JSON data
 @st.cache_data
@@ -11,14 +28,39 @@ def load_data():
         data = json.load(f)
     return pd.DataFrame(data)
 
+@st.cache_data
 def load_sponsors():
     with open('sponsors.csv', 'r') as f:
         data = pd.read_csv(f)
     return data
 
+openai_api_key = st.secrets["AZURE_OPENAI_API_KEY"]
+openai_ep = st.secrets["AZURE_OPENAI_ENDPOINT"]
+openai_ver = "2024-02-01"
+pc_api_key = st.secrets['PINECONE_API_KEY']
+
+os.environ['AZURE_OPENAI_ENDPOINT'] = st.secrets["AZURE_OPENAI_ENDPOINT"]
+os.environ["OPENAI_API_KEY"] = st.secrets["AZURE_OPENAI_API_KEY"]
+os.environ['SERPER_API_KEY'] = st.secrets["SERPAPI_API_KEY"]
+os.environ['OPENAI_API_VERSION'] = openai_ver
+
+if not openai_api_key:
+    raise ValueError("Please enter your OpenAI API key.")
+else:
+    client = AzureOpenAI(
+            azure_endpoint=openai_ep,
+            api_key=openai_api_key,
+            api_version=openai_ver,
+        )
+
 df = load_data()
 df_sponsors = load_sponsors()
+model_pubmed = load_pubmed_model()
+model = load_model()
 
+index_name = 'trials'
+index_name_pubmed = 'trial-pubmed'
+csv_index_name = 'sponsors'
 
 # Dictionary to store mappings of lowercase values to canonical representations
 canonical_values = {}
@@ -48,6 +90,17 @@ if 'selected_trial' not in st.session_state:
     st.session_state.selected_trial = None
 if 'modal_opened' not in st.session_state:
     st.session_state.modal_opened = False
+if "messages" not in st.session_state:
+    st.session_state.messages = []
+if 'logs' not in st.session_state:
+    st.session_state.logs = []
+
+with open('./logs.json', 'r', encoding='utf-8') as f:
+    data = json.load(f)
+    if 'logs' not in data:
+        data = {'logs': []}
+    st.session_state.logs = data['logs']
+
 
 # Navigation function
 def navigate_to(view, company=None, trial=None):
@@ -190,11 +243,110 @@ def trial_view():
         st.write("**Other Details:**")
         st.json(other_details)
 
+
+sponsor_prompt = """Given the user's message, provide a 1-3 word phrase to search for the most relevant sponsors in the database.
+                    Response with just "None" if the message doesn't mention anything about a sponsor name."""
+
+memory_prompt = """Using the user's messages, including the latest question and previous context, create a concise 1-2 sentence query 
+                    that captures the essence of the questions and context. Do not answer the question. 
+                    Emphasize key elements, such as sponsor names, disease names, and drug names, by repeating them."""
+
+
+def handle_prompt():
+    prompt = st.chat_input("What are you looking for?")
+    if prompt:
+        st.session_state.messages.append({"role": "user", "content": prompt})
+        st.session_state.logs.append(prompt)
+        with open('./logs.json', 'w') as f:
+            data = {"logs": st.session_state.logs}
+            json.dump(data, f, ensure_ascii=False, indent=4)
+
+        with st.chat_message("user"):
+            st.markdown(prompt)
+
+        response = client.chat.completions.create(
+            model='lunartree-gpt-35-turbo-2',
+            messages=[{"role": "system", "content": sponsor_prompt}, {"role": "user", "content": prompt}],
+        )
+
+        sponsor_query = response.choices[0].message.content
+        print(f"Sponsor Query: {sponsor_query}\n\n")
+        matching_query = ""
+        if "None" not in sponsor_query:
+            vector = model.encode(sponsor_query)
+            response = query_embeddings(vector, n_results=2, embedding_name=csv_index_name, pc_api_key=pc_api_key)
+            sponsor_match = response[0]
+
+            if sponsor_match['score'] > 0.4:
+                metadata = sponsor_match['metadata']
+                matching_query = f" Matching Sponsor: {metadata['Sponsor Name']}, {metadata.get('Other Names')}. "
+
+            print([(v['id'], v['score']) for v in response])
+
+        response = client.chat.completions.create(
+            model='lunartree-gpt-35-turbo-2',
+            messages=[{"role": "system", "content": memory_prompt}] + st.session_state.messages[-5:],
+        )
+
+        query = response.choices[0].message.content
+        print(f"Refined Query: {query}\n\n")
+
+        context_trials = []
+
+        trial_query = f"{query}. {matching_query}"
+        print(f"Trial Query {trial_query}\n\n")
+        vector = model.encode(trial_query)
+        response = query_embeddings(vector, n_results=5, embedding_name=index_name, pc_api_key=pc_api_key)
+        context_trials.extend([v['metadata'] for v in response])
+
+        print([(v['id'], v['score'], v['metadata']) for v in response])
+
+        vector = model_pubmed.encode(trial_query)
+        response = query_embeddings(vector, n_results=5, embedding_name=index_name_pubmed, pc_api_key=pc_api_key)
+        context_trials.extend([v['metadata'] for v in response])
+
+        print([(v['id'], v['score'], v['metadata']) for v in response])
+
+        trial_ids = []
+        unique_trials = []
+        for trial in context_trials:
+            if trial['TrialID'] not in trial_ids:
+                unique_trials.append(trial)
+                trial_ids.append(trial['TrialID'])
+
+        print(f"Unique Trials: {unique_trials}\n\n")
+        
+        template = get_prompt_template(query, unique_trials)
+        
+        response = client.chat.completions.create(
+            model='lunartree-gpt-35-turbo-2',
+            messages=[{"role": "user", "content": template}],
+            stream=True
+        )
+
+        with st.chat_message("assistant"):
+            response = st.write_stream(response)
+        st.session_state.messages.append({"role": "assistant", "content": response})
+
+def chat_view():
+    # Show title and description.
+    st.title("💬 Biosimilar Tracker Chat")
+    st.write(
+        """Interact with this chatbot to answer your questions on biosimilar drug development across the world."""
+    )
+
+    # Display the existing chat messages via `st.chat_message`.
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+
+    handle_prompt()
+
 st.sidebar.image('lunartree-logo-256256.png', width=200)  # Adjust width as needed
 st.sidebar.title("LunarTree Biosimilars Tracker")
 
-view = st.sidebar.radio("Select a view", ["Summary", "Sponsor", "Trial"], 
-                        index=["Summary", "Sponsor", "Trial"].index(st.session_state.view))
+view = st.sidebar.radio("Select a view", ["Summary", "Sponsor", "Trial", "Chat"], 
+                        index=["Summary", "Sponsor", "Trial", "Chat"].index(st.session_state.view))
 
 # Buttons for website, LinkedIn, and email
 st.sidebar.markdown("## Connect with Us")
@@ -216,8 +368,10 @@ if st.session_state.view == "Summary":
     aggregate_view()
 elif st.session_state.view == "Sponsor":
     sponsor_view()
-else:
+elif st.session_state.view == "Trial":
     trial_view()
+else:
+    chat_view()
 
 # Modal component
 modal = Modal("Welcome to the Biosimilars Tracker!", key="modal")
