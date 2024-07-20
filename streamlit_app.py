@@ -255,6 +255,12 @@ memory_prompt = """Using the user's messages, including the latest question and 
 def handle_prompt():
     prompt = st.chat_input("What are you looking for?")
     if prompt:
+        if len(prompt) > 2048:
+            with st.chat_message("assistant"):
+                response = st.write_stream(response)
+            st.session_state.messages.append({"role": "assistant", "content": response})
+            return
+        
         st.session_state.messages.append({"role": "user", "content": prompt})
         st.session_state.logs.append(prompt)
         with open('./logs.json', 'w') as f:
