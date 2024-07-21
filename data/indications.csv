@@ -1,0 +1,583 @@
+Unique indications,Count
+Breast Cancer,104
+Ovarian Cancer,31
+Triple Negative Breast Cancer,29
+Metastatic Breast Cancer,29
+Non-small Cell Lung Cancer,27
+Endometrial Cancer,24
+Acute Myeloid Leukemia,21
+Multiple Myeloma,19
+Bladder Cancer,18
+HER2-positive Breast Cancer,17
+Gastric Cancer,16
+Hodgkin Lymphoma,16
+Urothelial Cancer,16
+Fallopian Tube Cancer,16
+Prostate Cancer,15
+Cervical Cancer,12
+Pancreatic Cancer,11
+Diffuse Large B-Cell Lymphoma,11
+Prognostic Breast Cancer,11
+Colorectal Cancer,10
+Primary Peritoneal Cancer,10
+"Lymphoma, Large B-Cell, Diffuse",9
+"Lymphoma, Large-Cell, Anaplastic",9
+Hodgkin Disease,9
+"Cancer, Non-Small-Cell Lung",9
+"Lymphoma, B-Cell",9
+Epithelial Ovarian Cancer,9
+NSCLC,9
+Anatomic Breast Cancer,9
+"Lymphoma, Non-Hodgkin",9
+Non-Hodgkin Lymphoma,8
+Renal Cell Cancer,8
+Gastroesophageal Junction AdenoCancer,8
+Head and Neck Cancer,7
+Acute Lymphoblastic Leukemia,7
+Small Cell Lung Cancer,7
+Metastatic Solid Cancer,7
+"Disease, Hodgkin",7
+Invasive Breast Cancer,7
+HER2-negative Breast Cancer,7
+Peritoneal Cancer,7
+Mycosis Fungoides,7
+ACUTE LYMPHOBLASTIC LEUKEMIA,7
+Ovary Cancer,6
+Esophageal Cancer,6
+HER2 Positive Breast Cancer,6
+Biliary Tract Cancer,6
+Melanoma,6
+HER2-Positive Solid Cancer,5
+Follicular Lymphoma,5
+Non Small Cell Lung Cancer,5
+Lung Cancer,5
+Salivary Gland Cancer,5
+Chronic Lymphocytic Leukemia,5
+Glioblastoma Multiforme,5
+Pancreas Cancer,5
+Metastatic Urothelial Cancer,5
+Leukemia,5
+Head and Neck Squamous Cell Cancer,5
+Urinary Bladder Cancer,5
+HER2-positive Solid Cancer,5
+or Metastatic Solid Cancer,4
+B-Cell Lymphoma,4
+Diffuse Large B Cell Lymphoma,4
+B-cell Lymphoma,4
+Hepatocellular Cancer,4
+Glioblastoma,4
+Metastatic Castration-resistant Prostate Cancer,4
+"Solid Cancer, Adult",4
+Mesothelioma,4
+Acute Myelogenous Leukemia,4
+Recurrent Breast Cancer,4
+Rectal Cancer,4
+Metastatic Cancer,4
+Squamous Cell Cancer of the Head and Neck,4
+Renal Pelvis Cancer,4
+Cervix Cancer,3
+Esophagus Cancer,3
+Endometrium Cancer,3
+Pancreatic AdenoCancer,3
+Refractory B Acute Lymphoblastic Leukemia,3
+Recurrent B Acute Lymphoblastic Leukemia,3
+Recurrent Ovarian Cancer,3
+Non-small Cell Lung Cancer (NSCLC),3
+T-Cell Lymphoma,3
+HER2 Gene Mutation,3
+Muscle Invasive Bladder Cancer,3
+B-cell Non-Hodgkin Lymphoma,3
+"recurrent or metastatic cervical cancer MedDRA version: 21.1 Level: PT Classification code 10008342 Term: Cervix Cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps)",3
+Metastatic Colorectal Cancer,3
+Urologic Cancer,3
+Non-Hodgkin's Lymphoma,3
+Non-Hodgkins Lymphoma,3
+Hormone Receptor Positive Breast Cancer,3
+Gastric AdenoCancer,3
+Precursor B-cell Lymphoblastic Leukemia-Lymphoma,3
+B-cell Acute Lymphoblastic Leukemia,3
+Brain Metastases,3
+B-Cell Non-Hodgkin Lymphoma,3
+Precursor b-Cell Lymphoblastic Leukemia-Lymphoma,3
+Metastatic Triple-negative Breast Cancer,3
+Locally Breast Cancer,3
+Diffuse Cutaneous Systemic Sclerosis,3
+"Lymphoma, Follicular",3
+Ureteral Cancer,3
+Solid Malignancies,3
+Metastatic Triple-Negative Breast Cancer,3
+Triple-Negative Breast Cancer,3
+Non-Small Cell Lung Cancer (NSCLC),3
+Non-hodgkin's Lymphoma,3
+Childhood Hodgkin Lymphoma,3
+Triple-negative Breast Cancer,3
+Prostate Cancer (CRPC),2
+Myeloproliferative Cancer,2
+"Leukemia, Myelocytic, Acute",2
+Refractory Acute Myeloid Leukemia,2
+Recurrent Acute Myeloid Leukemia,2
+"Lymphoma, T-Cell, Peripheral",2
+"Lymphoma, T-cell",2
+Locally or Metastatic Non-Small Cell Lung Cancer,2
+Malignant Solid Cancer,2
+HER2-positive Metastatic Breast Cancer,2
+Undifferentiated Pleomorphic Sarcoma,2
+Unresectable/metastatic breast cancer with human epidermal growth factor receptor 2 (HER2)-positive expression MedDRA version: 20.0 Level: LLT Classification code 10027475 Term: Metastatic breast cancer System Organ Class: 100000004864,2
+CLASSICAL HODGKIN LYMPHOMA,2
+Myelodysplastic Syndrome,2
+Prostatic Cancer,2
+HER-2 Gene Amplification,2
+ER-Negative Breast Cancer,2
+"Lymphoma, T-Cell",2
+Cancer Metastasis,2
+Hodgkin's Lymphoma,2
+Gastrointestinal Cancer,2
+Esophageal AdenoCancer,2
+Gastroesophageal-junction Cancer,2
+HER-2 Protein Overexpression,2
+Myelodysplastic Syndromes,2
+HER2 Low Breast Cancer,2
+Stomach Cancer,2
+Burkitt Lymphoma,2
+HER2 Overexpressing Gastric Cancer,2
+"First-line (1L) Triple Negative Breast Cancer (TNBC) - the subtype of breast cancer characterized by a lack of Cancer expression of estrogen receptor, progesterone receptor, and human epidermal growth factor receptor 2. MedDRA version: 20.0 Level: PT Classification code 10075566 Term: Triple negative breast cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps)",2
+"HER2-positive Metastatic Breast Cancer MedDRA version: 20.0 Level: SOC Classification code 10029104 Term: Cancer benign, malignant and unspecified (incl cysts and polyps) System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps)",2
+Relapsed/Refractory Multiple Myeloma MedDRA version: 21.0 Level: LLT Classification code 10028228 Term: Multiple myeloma System Organ Class: 100000004864,2
+PD-L1 Negative,2
+Oncology,2
+Hormone-receptor-positive Breast Cancer,2
+Recurrent Solid Cancer,2
+HER2-positive Early Breast Cancer,2
+or Metastatic Breast Cancer,2
+"Treatment in locally unresectable metastatic patients with HER2 overexpressed (IHC 3+ or IHC 2+) and HER2 low (1+) selected solid Cancer not eligible for curative therapy. MedDRA version: 20.0 Level: SOC Classification code 10029104 Term: Cancer benign, malignant and unspecified (incl cysts and polyps) System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps)",2
+Hormone Receptor Positive Cancer,2
+Early-stage Breast Cancer,2
+Large B-cell Lymphoma,2
+Medical Oncology,2
+Early Breast Cancer,2
+Inflammatory Breast Cancer,2
+Cutaneous T-cell Lymphoma (CTCL),2
+Sezary Syndrome,2
+"Lymphoma, Mantle-Cell",2
+"Patients with epithelial ovarian cancer, primary peritoneal cancer, or fallopian tube cancer (hereafter collectively referred to as platinum-resistant ovarian cancer and abbreviated as PROC) MedDRA version: 20.0 Level: PT Classification code 10033128 Term: Ovarian cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 20.0 Level: PT Classification code 10016180 Term: Fallopian tube cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 20.1 Level: PT Classification code 10080244 Term: Peritoneal cancer index System Organ Class: 10022891 - Investigations",2
+Anaplastic Large-Cell Lymphoma,2
+"Cancer, Transitional Cell",2
+Urethral Cancer,2
+"Non-Small Cell Lung Cancer MedDRA version: 21.1 Level: PT Classification code 10061873 Term: Non-small cell lung cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps)",2
+Gliosarcoma,2
+Leptomeningeal Metastasis,2
+ER-negative Breast Cancer,2
+Breast Cancer Female,2
+HER2-mutated metastatic Non-Small Cell Lung Cancer (NSCLC) MedDRA version: 20.0 Level: LLT Classification code 10025044 Term: Lung cancer System Organ Class: 100000004864,2
+Non-Small Cell Squamous Lung Cancer,2
+Ovarian Epithelial Cancer,2
+Lymphomatoid Papulosis,2
+Pancreatic Ductal AdenoCancer,2
+Large B-Cell Lymphoma,2
+Solid Tumours,2
+Refractory Diffuse Large B-Cell Lymphoma,2
+Classical Hodgkin Lymphoma,2
+"Prostatic Cancer, Castration-Resistant",2
+Non-muscle Invasive Bladder Cancer,2
+Anaplastic Large-cell Lymphoma,2
+HER2-Positive Metastatic Breast Cancer,2
+"Cancer, Squamous Cell of Head and Neck",2
+Safety,2
+Malignant Glioma,2
+Non-Muscle Invasive Bladder Cancer,2
+Non-Small-Cell Lung Cancer,2
+Solid Cancer (Excluding Gastric Cancer and Breast Cancer),1
+"Gastric cancer, Gastroesophageal junction cancer",1
+Squamous Cell Cancer of the Head and Neck (SCCHN),1
+Lung Cancer(NSCLC),1
+Enteropathy Associated T-cell Lymphoma,1
+Gastroesophageal Junction Cancer,1
+Blastic Plasmacytoid Dendritic Cell Cancer,1
+SCLC,1
+Merkel Cell Cancer,1
+Anaplastic Thyroid Cancer,1
+Differentiated Thyroid Cancer,1
+Recurrent Mixed Phenotype Acute Leukemia,1
+Refractory T Acute Lymphoblastic Leukemia,1
+Recurrent T Acute Lymphoblastic Leukemia,1
+Refractory Mixed Phenotype Acute Leukemia,1
+or Metastatic Solid Malignancies,1
+HER2-positive Biliary Tract Cancer,1
+HER2-Positive Salivary Gland Cancers,1
+BRCA2 Gene Mutation,1
+BRCA1 Gene Mutation,1
+Recurrent Uterine Corpus Cancer,1
+Recurrent Fallopian Tube Cancer,1
+Recurrent Uterine Serous Cancer,1
+Recurrent Uterine Carcinosarcoma,1
+Recurrent Primary Peritoneal Cancer,1
+Platinum Resistant Ovarian Cancer,1
+Folate Receptor Alpha Positive,1
+"Ovarian Cancer, Pancreatic Cancer",1
+Additional Indications Below for Module 4 and 5,1
+Small Cell Lung Cancer Only in Module 5,1
+Biliary Cancer,1
+Relapsed/Refractory Multiple Myeloma,1
+"Inoperable or Metastatic Hormone Receptor-Positive, HER2-Negative Breast Cancer that Have Been Treated With One or Two Prior Lines of Systemic Chemotherapy MedDRA version: 23.0 Level: PT Classification code 10083232 Term: HER2 negative breast cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps)",1
+"Lymphoma, NK-cell",1
+/ Metastatic Her-2 Positive Breast Cancer,1
+Mantle-Cell Lymphoma,1
+"Follicular Lymphoma, Grade 3",1
+"Diffuse, Large B-Cell, Lymphoma",1
+Gastric and pancreatic adenoCancer MedDRA version: 21.1 Level: LLT Classification code 10066354 Term: AdenoCancer of the gastroesophageal junction System Organ Class: 100000004864 MedDRA version: 21.1 Level: LLT Classification code 10051971 Term: Pancreatic adenoCancer System Organ Class: 100000004864,1
+B Cells--Cancer,1
+Indolent Lymphoma,1
+Non Hodgkin Lymphoma,1
+Mantle Cell Lymphoma,1
+or Metastatic Biliary Tract Cancer,1
+HER2 Mutant Non-small Cell Lung Cancer,1
+HER2 Amplification,1
+Malignant Melanoma,1
+Pancreatic Ductal Cancer,1
+Castration-Resistant Prostatic Cancer,1
+Myxofibrosarcoma,1
+"Lymphoma, Non Hodgkin",1
+/ Metastatic Solid Cancer,1
+Esophageal SCC,1
+Hormone Receptor-positive Breast Cancer,1
+Tissue Factor-Expressing Solid Cancer,1
+SCCHN,1
+HER2-mutant Non-Small Cell Lung Cancer,1
+PD-L1 Positive,1
+Solid Cancer Cancers,1
+Urinary Tract Cancers,1
+Squamous Cell Cancer,1
+Mesothelioma; Pleura,1
+Mesotheliomas Pleural,1
+"Cancer, Ovarian",1
+Recurrent Glioblastoma Multiforme,1
+"Her2-positive, unresectable and/or metastatic breast cancer.",1
+"Part 2: HER2 Expressing/Amplified Solid Cancer Excluding Breast, Gastric, Colorectal Cancer",1
+"Part 1: Bladder, Biliary Tract, Cervical, Endometrial, Ovarian, Pancreatic Cancer, Rare Cancer, Any Cancer Type Excluding Breast, Gastric, Colorectal Cancer",1
+Bile Duct Cancer,1
+Colo-rectal Cancer,1
+Mucoepidermoid Cancer,1
+Liver Cancer,1
+Recurrent Renal Cell Cancer,1
+Mouth Cancer,1
+Recurrent Prostate Cancer,1
+Palate Cancer,1
+CholangioCancer,1
+Tongue Cancer,1
+Lip Cancer,1
+Mucinous Breast Cancer Recurrent,1
+Larynx Cancer,1
+HER2 Positive Gastric Cancer,1
+Skin Cancer,1
+Recurrent Colon Cancer,1
+Rare Diseases,1
+Recurrent Gastric Cancer,1
+Mucinous AdenoCancer Gastric,1
+Breast Cancer Malignant Primary,1
+Tonsil Cancer,1
+"Cancer of the ovary, cervix, endometrium, bladder, prostate (castrationresistant prostate cancer [CRPC]), esophagus, lung (non-small cell lung cancer [NSCLC]), and Squamous cell Cancer of the head and neck (SCCHN) MedDRA version: 20.0 Level: PT Classification code 10060862 Term: Prostate cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 20.0 Level: HLT Classification code 10014742 Term: Endometrial Cancer malignant System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 20.0 Level: PT Classification code 10008342 Term: Cervix Cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 20.0 Level: PT Classification code 10023774 Term: Large cell lung cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 20.1 Level: PT Classification code 10062878 Term: Gastrooesophageal cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 20.0 Level: PT Classification code 10005003 Term: Bladder cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 20.0 Level: SOC",1
+Upper Tract Urothelial Cancer,1
+UTUC,1
+"Leukemia, Hairy Cell",1
+Locally or Metastatic Breast Cancer,1
+Cancer - Any cancer,1
+Cholangiocellular Cancer,1
+PR-Negative Breast Cancer,1
+Metastatic Urothelial Cancer of the Renal Pelvis and Ureter,1
+"recurrent or cervical cancer MedDRA version: 21.1 Level: PT Classification code 10008342 Term: Cervix Cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps)",1
+Synchronous Bilateral Breast Cancer,1
+Multifocal Breast Cancer,1
+or Metastatic Urothelium Cancer,1
+Breast Cancer; HER2-positive; Metastatic,1
+Relapsed or Refractory Multiple Myeloma,1
+NON-breast HER2+ Malignancies,1
+Peripheral T Cell Lymphoma,1
+HER2-over-expressing or HER2-mutated unresectable and/or metastatic non-squamous NSCLC,1
+Metastatic Castration Resistant Prostate Cancer,1
+Renal Pelvis and Ureter Urothelial Cancer,1
+NMIBC,1
+Locally or Metastatic Solid Cancer,1
+HNSCC,1
+"Cancer, Gastrointestinal",1
+Recurrent Hodgkin Lymphoma,1
+Refractory Hodgkin Lymphoma,1
+"Leukemia, Myeloid, Acute",1
+Left Ventricular Function Systolic Dysfunction,1
+"Cancer, Lung",1
+Nonsmall Cell Lung Cancer,1
+Hematological Malignancies,1
+Refractory Non-Hodgkin Lymphoma,1
+Aggressive Non-Hodgkin Lymphoma,1
+Relapsed Non Hodgkin Lymphoma,1
+HER2 Mutations Breast Cancer,1
+Recurrent or cervical cancer MedDRA version: 21.1Level: PTClassification code: 10008342Term: Cervix CancerSystem Organ Class: 100000004864,1
+MedDRA version: 21.1Level: PTClassification code: 10008342Term: Cervix CancerSystem Organ Class: 100000004864,1
+Cancers,1
+High Grade Serous AdenoCancer of Ovary,1
+Infiltrating Bladder Urothelial Cancer With Squamous Differentiation,1
+Unresectable Urothelial Cancer,1
+Locally Urothelial Cancer,1
+Acute Promyelocytic Leukemia,1
+HER2-positive Gastric Cancer or Gastroesophageal Junction AdenoCancer,1
+Platinum-resistant Ovarian Cancer,1
+HER2 Expressing Breast or Gastric/Stomach Cancers,1
+Resectable Non-Small-Cell Lung Cancer,1
+or Metastatic Non-Small-Cell Lung Cancer,1
+Digestive System Cancer,1
+Cancer by Site,1
+"Inoperable, locally , recurrent or metastatic non-squamous non-small cell lung cancer MedDRA version: 20.0 Level: PT Classification code 10061873 Term: Non-small cell lung cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps)",1
+ALL,1
+HR-Positive Breast Cancer,1
+NSCL2 Gene Mutation,1
+GastroEsophageal Cancer,1
+ER+ Breast Cancer,1
+Cervical Squamous Cell Cancer,1
+Colorectal Cancer Metastatic,1
+"HER2 Positive Breast Cancer, Metastatic Breast Cancer, Locally Breast Cancer",1
+Lung Cancer (NSCLC),1
+"Cancer of the ovary, cervix, endometrium, bladder, prostate (castration-resistant prostate cancer [CRPC]), esophagus or lung (non-small cell lung cancer [NSCLC]) MedDRA version: 20.0 Level: PT Classification code 10060862 Term: Prostate cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 20.0 Level: HLT Classification code 10014742 Term: Endometrial Cancer malignant System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 20.0 Level: PT Classification code 10008342 Term: Cervix Cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 20.1 Level: PT Classification code 10062878 Term: Gastrooesophageal cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 20.0 Level: PT Classification code 10023774 Term: Large cell lung cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 20.0 Level: PT Classification code 10005003 Term: Bladder cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 20.0 Level: SOC Classification code 10029104 Term: Cancer benign, malignant and unspecified (incl cysts and polyps) System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 20.0 Level: PT Classification code 10033128 Term: Ovarian cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps)",1
+Metastatic Squamous Cell Cancer of the Head and Neck,1
+Recurrent Squamous Cell Cancer of the Head and Neck,1
+Squamous Cell Cancer of Head and Neck,1
+Urachal AdenoCancer,1
+Unresectable Bladder Cancer,1
+Bladder Squamous Cell Cancer,1
+Malignant Renal Pelvis Cancer,1
+Locally Bladder Cancer,1
+Malignant Ureter Cancer,1
+Malignant Urethral Cancer,1
+Metastatic Bladder Cancer,1
+Bladder AdenoCancer,1
+Thymic Cancer,1
+Thymoma,1
+"Leukemia, Acute Lymphoblastic",1
+HER-2 Positive Breast Cancer,1
+and Metastatic Solid Cancer,1
+HER2 Positive Metastatic Breast Cancer,1
+Gene Abnormality,1
+Gene Product Sequence Variation,1
+Locally or Metastatic Urothelial Cancer,1
+Light Chain (AL) Amyloidosis,1
+Human Epidermal Growth Factor 2 Positive Cancer of Breast,1
+Health Condition 1: - Health Condition 2: D758- Other specified diseases of bloodand blood-forming organs Health Condition 3: D758- Other specified diseases of bloodand blood-forming organs,1
+Lymphatic Diseases,1
+Adult T-Cell Leukemia/Lymphoma,1
+Acute Lymphoid Leukemia,1
+"Anemia, Refractory, With Excess of Blasts",1
+Relapsed B-Cell Non-Hodgkin Lymphoma,1
+Refractory B-Cell Non-Hodgkin Lymphoma,1
+"Second- or Third-Line Recurrent or Metastatic Cervical Cancer MedDRA version: 21.1 Level: PT Classification code 10008342 Term: Cervix Cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps)",1
+Solid Cancer Cancer,1
+Human Epidermal Growth Factor 2 Low Breast Cancer,1
+Relapsed or Refractory Hodgkin Lymphoma,1
+Relapsed or Refractory Anaplastic Large-cell Lymphoma,1
+Folate Receptor-Alpha Positive,1
+Gastroesophageal AdenoCancer,1
+Locally or Metastatic Unresectable Urothelial Cancer,1
+CD22 Positive,1
+Blasts 5 Percent or More of Bone Marrow Nucleated Cells,1
+Philadelphia Chromosome Positive,1
+HER2-expressing locally or metastatic malignant solid Cancer,1
+Castration-resistant Prostate Cancer,1
+"High Grade B-Cell Lymphoma With MYC, BCL2, and BCL6 Rearrangements",1
+High Grade B-Cell Lymphoma With MYC and BCL2 and/or BCL6 Rearrangements,1
+Double-Expressor Lymphoma,1
+High Grade B-Cell Lymphoma With MYC and BCL2 or BCL6 Rearrangements,1
+Metastatic Malignant Cancer in the Brain,1
+Metastatic HER2 Negative Breast Cancer,1
+"Leukemia, Lymphoblastic,Acute",1
+"Leukemia, Acute Myeloid",1
+Unresectable or Metastatic Solid Malignancy,1
+Cancer Malignant,1
+"Non-Hodgkin's Lymphoma, Chronic Lymphocytic Leukemia",1
+B-cell Non Hodgkin Lymphoma,1
+Muscle-Invasive Bladder Cancer,1
+Localized Muscle Invasive Bladder Urothelial Cancer,1
+Esophageal Squamous Cell Cancer,1
+Gynecological Malignancy,1
+"-III triple-negative breast cancer with residual invasive disease after neoadjuvant therapy. MedDRA version: 20.0 Level: PT Classification code 10075566 Term: Triple negative breast cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps)",1
+Locally or Unresectable Metastatic Breast Cancer,1
+Endometrioid AdenoCancer,1
+Hormone Receptor Negative Cancer,1
+Triple-Negative Breast Cancer (TNBC),1
+Residual Cancer,1
+Circulating Cancer DNA,1
+Cutaneous Lymphoma,1
+Non-Hodgkin Lymphoma (NHL),1
+dcSSc,1
+Scleroderma,1
+High Grade Epithelial Ovarian Cancer,1
+Hormone Receptor-positive/Her2 Negative Breast Cancer,1
+Breast AdenoCancer,1
+"Leukemia, Myeloid",1
+Metastatic gpNMB Over-expressing Triple Negative Breast Cancer,1
+HER2 Expressing or Mutated Malignant Solid Cancer,1
+Hairy Cell Leukemia,1
+Refractory or Recurrent CD30+ Hematologic Malignancies,1
+HER2-Positive Primary Breast Cancer Participants With Residual Invasive Disease Following Neoadjuvant Therapy,1
+Metastatic Gastric AdenoCancer,1
+"Lung Cancer, Nonsmall Cell",1
+Acute Myeloid Leukaemia,1
+Leukaemia Cancer Leukaemia,1
+HER2-positive,1
+"Melanoma,",1
+Richter Syndrome,1
+Recurrent Small Cell Lung Cancer,1
+"Unresectable or metastatic gastric or gastro-esophageal junction (GEJ) adenoCancer that has progressed on or after a trastuzumab-containing regimen MedDRA version: 21.1 Level: LLT Classification code 10071114 Term: Metastatic gastric adenoCancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 21.1 Level: LLT Classification code 10066354 Term: AdenoCancer of the gastroesophageal junction System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps)",1
+Disease: Lymphoma (Hodgkin's) Cancer Hodgkin lymphoma,1
+Topic: National Cancer Research Network,1
+Subtopic: Lymphoma,1
+"Lymphoma, T-Cell, Cutaneous",1
+HR+/HER2- Metastatic Breast Cancer,1
+Digestive Cancer,1
+Uterine Cervical Cancer,1
+HER2-expressing,1
+Cutaneous T Cell Lymphoma,1
+Small-Cell Lung Cancer,1
+Non-Hodgkin's Disease,1
+Esophagogastric AdenoCancer,1
+"C349 Bronchus or lung, unspecified Bronchus or lung, unspecified",1
+C349,1
+HER2 Negative Breast Cancer,1
+ER Positive Breast Cancer,1
+Peripheral T-cell Lymphoma,1
+Non-Small Cell Non-Squamous Lung Cancer,1
+Mixed Phenotype Acute Leukemia,1
+Myelodysplastic/Myeloproliferative Cancer,1
+AdenoCancer Gastric With Metastases,1
+AdenoCancer - GEJ,1
+Hormone-refractory Prostate Cancer,1
+Head and Neck Cancers- Squamous Cell,1
+Cancer Breast,1
+Gastrointestinal Malignancies,1
+Wet Age-related Macular Degeneration,1
+Ovarian Endometrioid AdenoCancer,1
+Lung AdenoCancer,1
+Endometrial Serous AdenoCancer,1
+Endometrial Endometrioid AdenoCancer,1
+Ovarian Clear Cell Cancer,1
+Malignant Pleural Mesothelioma,1
+Endometrial AdenoCancer,1
+Endometrial Clear Cell AdenoCancer,1
+Ovarian Mucinous AdenoCancer,1
+Ovarian Clear Cell AdenoCancer,1
+Recurrent B Lymphoblastic Lymphoma,1
+Refractory B Lymphoblastic Lymphoma,1
+High-risk Myelodysplastic Syndrome,1
+DLBCL,1
+Liver Failure,1
+HER2-positive Colorectal Cancer,1
+HER2-positive Gastroesophageal Cancer,1
+HER2-positive Endometrial Cancer,1
+Urothelial Bladder Cancer,1
+Sarcoma,1
+Non Small Cell Lung Cancer (NSCLC),1
+Thyroid Cancer,1
+"Recurrent Epithelial Ovarian, Fallopian or Peritoneal Cancer",1
+"Brain Metastases, Adult",1
+Grade 3b Follicular Lymphoma,1
+Primary Mediastinal (Thymic) Large B-Cell Lymphoma,1
+Recurrent Diffuse Large B-Cell Lymphoma,1
+Transformed Follic Lymph to Diff Large B-Cell Lymphoma,1
+Transformed Marg Zone Lymph to Diff Large B-Cell Lymphoma,1
+Cancer of the Breast,1
+Cutaneous T-Cell Lymphoma,1
+Primary Cutaneous Anaplastic Large Cell Lymphoma,1
+Locally /Metastatic Solid Tumours,1
+"Cancer of the ovary, cervix, endometrium, bladder, prostate (castration-resistant prostate cancer [CRPC]), head and neck (squamous cell Cancer of the head and neck [SCCHN]), esophagus or lung (non-small cell lung cancer [NSCLC] MedDRA version: 20.0 Level: HLT Classification code 10014742 Term: Endometrial Cancer malignant System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 20.0 Level: PT Classification code 10060862 Term: Prostate cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 21.1 Level: PT Classification code 10008342 Term: Cervix Cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 20.1 Level: PT Classification code 10062878 Term: Gastrooesophageal cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 21.1 Level: PT Classification code 10023774 Term: Large cell lung cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 20.0 Level: PT Classification code 10005003 Term: Bladder cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 20.0 Level: SOC Classification code 10029104 Term: Cancer benign, malignant and unspecified (incl cysts and polyps) System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 20.0 Level: PT Classification code 10033128 Term: Ovarian cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps) MedDRA version: 21.1 Level: PT Classification code 10067821 Term: Head and neck cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps)",1
+Malignant Cancer,1
+Her 2 Positive Breast Cancer,1
+Breast Cancer Metastatic,1
+Unresectable or Melanoma,1
+Recurrent Glioblastoma,1
+Brain Cancer,1
+High-risk Non-muscle Invasive Bladder Cancer,1
+Breast Diseases,1
+Capecitabine,1
+HER2-positive Breast With Liver Metastases,1
+Cancer Non-small Cell Lung,1
+"Metastatic Pancreatic Ductal AdenoCancer MedDRA version: 20.0 Level: PT Classification code 10073364 Term: Ductal adenoCancer of pancreas System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps)",1
+"Cancer, Renal Cell",1
+Extensive-stage Small-cell Lung Cancer,1
+Relapsed / Refractory AML,1
+Relapsed / Refractory MDS,1
+Unresectable Breast Cancer,1
+Metastatic Lung Cancer,1
+Relapsed Lymphoid Malignancy,1
+Refractory Lymphoid Malignancy,1
+Sézary Syndrome,1
+GBM,1
+Prostate Cancer Metastatic,1
+Multiple Myeloma in Relapse,1
+Multiple Myeloma With Failed Remission,1
+Androgen-Resistant Prostatic Cancer,1
+Castration Resistant Prostatic Cancer,1
+"Unspecified Adult Solid Cancer, Protocol Specific",1
+"Solid Cancer With HER2 Mutation,eg:Colorectal,Urothelial,Gastric, Hepatobiliary,Endometrial,Melanoma,Ovarian,Cervical,Salivary Gland,Pancreatic,Breast",1
+Locally Cancer,1
+Clear Cell Renal Cell Cancer,1
+Clear Cell Renal Cancer,1
+Renal Cell AdenoCancer,1
+CD-30 Positive Anaplastic Large T-cell Cutaneous Lymphoma,1
+Hematologic Disorder,1
+Cutaneous Lymphomas,1
+Skin Lymphoma,1
+"Lymphoma, Primary Cutaneous Anaplastic Large Cell",1
+Papillary thyroid Cancer,1
+HER2 Low Breast AdenoCancer,1
+Extensive Stage-small Cell Lung Cancer,1
+"various /Metastatic solid tumour types - Endometrial Cancer - Gastric Cancer - Ovarian Cancer - Metastatic castration-resistant prostate cancer - Colorectal cancer MedDRA version: 12.0 Level: HLGT Classification code 10007129 Term: Cancer-related morbidities System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps)",1
+Graft vs. Host Disease,1
+Locally or Early Breast Cancer,1
+HER2-Negative Metastatic Breast Cancer,1
+"Hodgkin Lymphoma, Adult",1
+"Lymphoma, Marginal Zone",1
+Recurrent or Metastatic Nasopharyngeal Cancer,1
+Refractory Follicular Lymphoma,1
+Recurrent Follicular Lymphoma,1
+Neoplasia,1
+"Relapsed or Refractory Follicular Lymphoma, Relapsed or Refractory Diffuse Large B-Cell Lymphoma",1
+Clinical Efficacy,1
+High Grade Ovarian Cancer,1
+"recurrent or metastatic cervical cancer MedDRA version: 20.0 Level: PT Classification code 10008342 Term: Cervix Cancer System Organ Class: 10029104 - Cancer benign, malignant and unspecified (incl cysts and polyps)",1
+Mast Cell Leukemia,1
+Aggressive Systemic Mastocytosis,1
+Systemic Mastocytosis,1
+Salivary Gland Cancers,1
+Gland,1
+Malignant Cancer of Breast,1
+HER2,1
+Metastatic Prostate Cancer,1
+Diffuse Large B-cell-lymphoma,1
+Macular Edema,1
+Retinal Vein Occlusion,1
+Germ Cell Cancer,1
+Exocrine Pancreatic Cancer,1
+Relapsed Diffuse Large B-cell Lymphoma,1
+"Gastric Cancer, AdenoCancer",1
+Richter's Transformation,1
+Refractory Multiple Myeloma,1
+Relapsed Cancer,1
+NK/T Cell Lymphoma Nos,1
+Pharmacokinetics,1
+ECG,1
+Chemotherapy-induced Alopecia,1
+Gastric or Gastroesophageal Junction (GEJ) AdenoCancer,1
+Anaplastic Astrocytomas,1
+High-grade B-cell Lymphoma,1
+"Cancer, Breast",1
+"AdenoCancer, Gastric",1
+Neoadjuvant Treatment of Her2-positive Muscle-invasive Bladder Cance,1
+Acute Lymphocytic Leukemia,1
+"Infusions, Intravenous",1
+Metastatic Castration Resistant Prostate Cancer (mCRPC),1
+HER2-Positive Primary Breast Cancer,1
+Residual Invasive Breast Cancer,1
+Recurrent Extranodal Marginal Zone Lymphoma of Mucosa-Associated Lymphoid Tissue,1
+Grade 3a Follicular Lymphoma,1
+Indolent B-Cell Non-Hodgkin Lymphoma,1
+Grade 1 Follicular Lymphoma,1
+Refractory Extranodal Marginal Zone Lymphoma of Mucosa-Associated Lymphoid Tissue,1
+Marginal Zone Lymphoma,1
+Grade 2 Follicular Lymphoma,1
+Gastrooesophageal Cancer,1

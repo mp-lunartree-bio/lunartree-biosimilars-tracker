@@ -1,0 +1,206 @@
+Company Name,Headquarter City,Headquarter Country,Founding Year,Website URL,Public / Private Status,Established / Startup Status,ADC Specialty,Acquisition Status,Total # drugs,# Preclinical drugs,# Phase 1 drugs,# Phase 2 drugs,# Phase 3 drugs,# Approved drugs,# Undisclosed drugs,Total # trials,# Phase 1 trials,# Phase 2 trials,# Phase 3 trials,# Co-developers,Co-developers,# Countries
+IMMUNOGEN,Waltham,United States,1980,https://www.immunogen.com,Public,Established,ADC Platform Technology,-,22,1,6,10,2,1,2,25,8,13,4,13,Boehringer Ingelheim | Novartis | MacroGenics | CytomX | GlaxoSmithKline | Sanofi | GOG Foundation | BioTest | Debiopharm | Clovis Oncology | Merck Sharp & Dohme | MorphoSys AG | Bayer,46
+Seagen,Bothell,United States,1998,https://www.seagen.com,Acquired,Established,ADC Platform Technology,Acquired by Pfizer in 2023,22,1,10,4,3,4,0,93,21,58,12,21,Millennium | Alliance Foundation Trials | GlaxoSmithKline | Ligand Pharmaceuticals | Teva | Kyowa Kirin | Roche | Merck Sharp & Dohme | Pfizer | GILEAD | Celgene | PPD | Takeda | GOG Foundation | Agensys | Genentech | Immune Tolerance Network (ITN) | Genmab | Bristol Myers Squibb | RemeGen | Astellas,61
+AbbVie,North Chicago,United States,2013,https://www.abbvie.com,Public,Established,Antibody developer,-,20,0,7,8,3,0,2,23,9,8,6,8,Genmab | Stemcentrx | CytomX | Roche | Genentech | EuPAL | Pfizer | Radiation Therapy Oncology Group,47
+Genentech,South San Francisco,United States,1976,https://www.gene.com,Acquired,Established,Antibody developer,Acquired by Roche in 2009,16,1,8,4,0,2,1,32,7,23,2,8,AbbVie | Alliance Foundation Trials | Istari Oncology | Roche | Eli Lilly | Seagen | EuPAL | Pfizer,73
+Pfizer,New York City,United States,1849,https://www.pfizer.com,Public,Established,Antibody developer,-,14,1,4,3,1,2,3,51,13,27,6,25,AbbVie | Novartis | Alliance Foundation Trials | GlaxoSmithKline | Nona Bioscience | Eli Lilly | Rinat | Amgen | Roche | Array BioPharma | Seagen | Merck Sharp & Dohme | NordForsk | Stemcentrx | GILEAD | Celgene | UCB Pharma | Genentech | WYETH | Servier | Oxford BioMedica | Angiex | Nova Laboratories Limited | Strata Oncology | Celltech,39
+Roche,Basel,Switzerland,1896,https://www.roche.com,Public,Established,Antibody developer,-,14,0,6,5,0,2,1,56,5,32,18,15,AbbVie | EuPAL | Bolt | NSABP Foundation | Chugai | GlaxoSmithKline | GOG Foundation | Pierre Fabre | Genentech | Seagen | MedSIR | Astellas | Pfizer | GWT-TUD GmbH | GILEAD,73
+AstraZeneca,Cambridge,United Kingdom,1999,https://www.astrazeneca.com,Public,Established,Antibody developer,-,12,0,6,3,1,1,1,76,11,34,29,17,ADC Therapeutics | Innate | Fusion Pharmaceuticals Inc | Eisai | DAIICHI SANKYO | NSABP Foundation | KYM Biosciences | MedImmune | NeoTX Therapeutics Ltd | Keymed Biosciences | Lepu Biopharma | Open Innovation Partners | Tanabe Research Laboratories USA | Natera | Merck Sharp & Dohme | GILEAD | Paxman Coolers Limited,72
+ADC Therapeutics,Lausanne,Switzerland,2011,https://adctherapeutics.com,Public,Startup,ADC Platform Technology,-,10,3,3,3,0,1,0,4,1,2,1,4,Genmab | Regeneron | MedImmune | AstraZeneca,7
+"GeneQuantum (Suzhou, China)",Suzhou,China,2013,https://www.genequantum.com,Private,Startup,ADC Platform Technology,-,10,4,1,2,0,0,3,4,2,2,0,1,Pyramid Biosciences,3
+DAIICHI SANKYO,Tokyo,Japan,2005,https://www.daiichisankyo.com,Public,Established,Both,-,8,0,2,1,4,1,0,72,12,33,26,10,Translational Research in Oncology | AstraZeneca | Amgen | Eisai | NSABP Foundation | UNICANCER | Merck Sharp & Dohme | MedSIR | GILEAD | Paxman Coolers Limited,68
+Takeda,Osaka,Japan,1781,https://www.takeda.com,Public,Established,Antibody developer,-,8,0,2,4,0,1,1,12,0,7,3,5,Millennium | Mersana | BeiGene | Legochem | Seagen,38
+Ambrx,La Jolla,United States,2003,https://www.ambrx.com,Private,Startup,ADC Platform Technology,-,7,4,0,3,0,0,0,4,2,2,0,2,Progenics Pharmaceuticals | Johnson & Johnson,5
+Astellas,Tokyo,Japan,2005,https://www.astellas.com,Public,Established,Antibody developer,-,7,2,4,0,0,1,0,11,6,4,1,7,Roche | Agensys | Seagen | Merck Sharp & Dohme | Ganymed | GILEAD | Ligand Pharmaceuticals,22
+Immunomedics,Morris Plains,United States,1982,https://www.gilead.com/,Acquired,Established,ADC Platform Technology,Acquired by Gilead Sciences in 2020,7,0,0,1,3,1,2,0,0,0,0,1,GILEAD,59
+Legochem,Daejeon,South Korea,2002,https://www.legochembio.com,Public,Established,ADC Platform Technology,-,7,0,0,1,1,0,5,1,0,1,0,7,AntibodyChem Biosciences | Seasun Biomaterials | Y-Biologics | Takeda | Samsung Medical Center | Nordic Nanovector | Shanghai Fosun,72
+Sutro Biopharma,South San Francisco,United States,2003,https://www.sutrobio.com,Public,Startup,ADC Platform Technology,-,7,0,2,1,2,0,2,5,3,1,1,4,"Tasly Pharmaceutical Group Co., Ltd | Celgene | Bristol Myers Squibb | GOG Foundation",10
+Bayer,Leverkusen,Germany,1863,https://www.bayer.com,Public,Established,Antibody developer,-,6,0,4,1,1,0,0,12,10,2,0,2,IMMUNOGEN | MorphoSys AG,73
+Bristol Myers Squibb,New York City,United States,1887,https://www.bms.com,Public,Established,Antibody developer,-,6,0,1,4,1,0,0,13,2,11,0,8,Celgene | Eisai | CytomX | Sutro Biopharma | Seagen | Bolt | GILEAD | Medarex,54
+Novartis,Basel,Switzerland,1996,https://www.novartis.com,Public,Established,Antibody developer,-,6,0,4,0,1,1,0,8,4,2,2,7,Celgene | Endocyte | IMMUNOGEN | GlaxoSmithKline | GILEAD | Pfizer | Nordic Nanovector,11
+RemeGen,Yantai,China,2008,https://www.remegen.com,Public,Startup,Both,-,6,0,0,3,2,1,0,41,6,28,7,6,Jiangsu HengRui Medicine | BeiGene | Seagen | Merck Sharp & Dohme | Biocytogen | MabPlex,72
+WYETH,Madison,United States,1975,-,Acquired,Established,Antibody developer,Acquired by Pfizer in 2009,6,0,1,2,0,2,1,8,1,5,1,4,Rinat | Pfizer | Celltech | Oxford BioMedica,38
+Amgen,Thousand Oaks,United States,1980,https://www.amgen.com,Public,Established,Antibody developer,-,5,0,4,0,1,0,0,4,2,1,1,6,DAIICHI SANKYO | Servier | GlaxoSmithKline | Nova Laboratories Limited | NordForsk | Pfizer,10
+Bio thera Solutions,Guangzhou,China,2010,https://www.bio-thera.com/en/,Public,Startup,Antibody developer,-,5,0,3,0,1,0,1,1,1,0,0,0,,1
+CytomX,South San Francisco,United States,2008,https://www.cytomx.com,Public,Startup,ADC Platform Technology,-,5,0,0,5,0,0,0,1,0,1,0,3,IMMUNOGEN | Bristol Myers Squibb | AbbVie,4
+MabPlex,San Diego,United States,2013,https://www.mabplexinc.com,Private,Startup,-,-,5,0,0,4,0,1,0,0,0,0,0,3,Rongchang | Biocytogen | RemeGen,13
+MedImmune,Gaithersburg,United States,1988,-,Acquired,Established,Antibody developer,Acquired by AstraZeneca in 2007,5,0,4,0,0,0,1,9,7,1,1,5,AstraZeneca | Open Innovation Partners | Tanabe Research Laboratories USA | Cambridge Antibody Technology | ADC Therapeutics,15
+Targetome SA,Liège,Belgium,2015,https://www.targetome.com,Private,Startup,ADC Platform Technology,-,5,0,0,0,0,0,5,0,0,0,0,0,,0
+Agensys,Santa Monica,United States,1996,-,Acquired,Startup,Antibody developer,Acquired by Astellas in 2007,4,0,4,0,0,0,0,1,1,0,0,3,Astellas | Ligand Pharmaceuticals | Seagen,1
+Alligator Bioscience AB,Lund,Sweden,2001,https://www.alligatorbioscience.com,Public,Startup,Antibody developer,-,4,2,0,0,2,0,0,2,1,0,1,0,,4
+Byondis,Nijmegen,Netherlands,2012,https://www.byondis.com,Private,Startup,ADC Platform Technology,-,4,0,3,0,1,0,0,7,5,1,1,1,"Synthon Pharmaceuticals Durham, NC",58
+Eli Lilly,Indianapolis,United States,1876,https://www.lilly.com,Public,Established,Antibody developer,-,4,0,4,0,0,0,0,5,4,1,0,4,Alliance Foundation Trials | Loxo Oncology | Pfizer | Genentech,4
+Endocyte,West Lafayette,United States,1995,-,Acquired,Established,-,Acquired by Novartis in 2018,4,1,1,0,0,1,1,0,0,0,0,3,Novartis | Nordic Nanovector | Merck Sharp & Dohme,1
+Fudan-Zhangjiang,Shanghai,China,1996,-,Private,Startup,ADC Platform Technology,,4,0,3,1,0,0,0,5,4,1,0,0,,1
+Heidelberg Pharma,Munich,Germany,1997,https://www.heidelberg-pharma.com,Public,Established,ADC Platform Technology,-,4,2,0,2,0,0,0,0,0,0,0,3,MabVax | Wilex | Magenta,0
+Iksuda,Newcastle upon Tyne,United Kingdom,2015,https://www.iksuda.com,Private,Startup,ADC Platform Technology,-,4,0,1,0,0,0,3,1,1,0,0,0,,1
+Mersana,Massachusetts,United States,2001,https://www.mersana.com,Public,Startup,ADC Platform Technology,-,4,0,2,1,1,0,0,1,1,0,0,2,Takeda | GlaxoSmithKline,1
+Progenics Pharmaceuticals,New York City,United States,1986,https://www.lantheus.com/,Acquired,Established,ADC Platform Technology,Acquired by Lantheus in 2019,4,0,0,3,1,0,0,5,2,3,0,1,Ambrx,1
+Sanofi,Paris,France,1973,https://www.sanofi.com,Public,Established,Antibody developer,-,4,0,1,2,1,0,0,11,0,5,5,2,IMMUNOGEN | GlaxoSmithKline,12
+Stemcentrx,South San Francisco,United States,2008,-,Acquired,Startup,ADC Platform Technology,Acquired by AbbVie in 2016,4,0,1,1,1,0,1,2,1,1,0,2,Pfizer | AbbVie,36
+Systimmune,Redmond,United States,2014,https://systimmune.com/bl-m01d1,Private,Startup,ADC platform Technology,-,4,3,1,0,0,0,0,0,0,0,0,1,Sichuan Baili,0
+TORL Biotherapeutics,Irvine,United States,2018,https://torlbio.com/,Private,Startup,ADC Platform Technology,-,4,0,4,0,0,0,0,4,4,0,0,1,Translational Research in Oncology,3
+Translational Research in Oncology,Omaha,United States,2003,https://trioncology.org/,Private,Startup,ADC Platform Technology,-,4,0,4,0,0,0,0,5,4,1,0,2,TORL Biotherapeutics | DAIICHI SANKYO,3
+AbGenomics BV,Oss,Netherlands,2009,https://www.abgenomics.com,Private,Startup,-,-,3,1,1,0,0,0,1,0,0,0,0,0,,0
+Argenta Discovery Ltd,Harlow,United Kingdom,2000,https://www.argentadiscovery.com,Private,Established,-,-,3,2,0,1,0,0,0,0,0,0,0,0,,0
+BeiGene,Beijing,China,2010,https://www.beigene.com,Public,Startup,Antibody developer,-,3,0,2,1,0,0,0,5,2,3,0,4,Jiangsu HengRui Medicine | Takeda | RemeGen | Zymeworks,3
+Biocytogen,Waltham,United States,2008,https://www.biocytogen.com,Private,Startup,Antibody developer,-,3,2,0,1,0,0,0,0,0,0,0,2,RemeGen | MabPlex,1
+Biohaven,New Haven,United States,2013,https://www.biohavenpharma.com,Acquired,Startup,ADC Platform Technology,Acquired by Pfizer in 2022,3,2,0,1,0,0,0,1,0,1,0,0,,1
+Bliss (Hangzhou),Hangzhou,China,2017,https://www.blissbiopharma.com/?_l=en#Introduction,Private,Startup,ADC Platform Technology,-,3,0,1,2,0,0,0,3,2,1,0,1,Eisai,3
+Concortis,San Diego,United States,2008,-,Acquired,Startup,Antibody developer,-,3,2,0,0,0,0,1,0,0,0,0,1,Zova Biotherapeutics,0
+CSPC Pharmaceutical Group,Shijiazhuang,China,1997,https://www.cspc.com.hk/en/global/home.php,Public,Established,-,-,3,0,2,0,1,0,0,3,1,1,1,2,Elevation Oncology | Corbus,4
+Eisai,Tokyo,Japan,1941,https://www.eisai.com,Public,Established,Antibody developer,-,3,1,0,1,1,0,0,6,0,6,0,8,AstraZeneca | DAIICHI SANKYO | Bliss (Hangzhou) | NanoCarrier (Japan) | Bristol Myers Squibb | Morphotek | GILEAD | Paxman Coolers Limited,28
+Genmab,Copenhagen,Denmark,1999,https://www.genmab.com,Public,Established,Antibody developer,-,3,0,0,2,0,1,0,18,0,8,10,5,AbbVie | GOG Foundation | Seagen | Merck Sharp & Dohme | ADC Therapeutics,36
+GlaxoSmithKline,Brentford,United Kingdom,2000,https://www.gsk.com,Public,Established,Antibody developer,-,3,0,1,1,0,1,0,22,3,10,8,8,Amgen | Novartis | IMMUNOGEN | Sanofi | Roche | Mersana | Seagen | Pfizer,30
+KLUS,Cranbury,United States,2014,https://www.kluspharma.com/,Private,Startup,Both,-,3,0,1,1,1,0,0,2,0,2,0,0,,33
+Lepu Biopharma,Beijing,China,2018,https://www.lepubiopharma.com,Private,Startup,ADC Platform Technology,-,3,0,0,2,1,0,0,0,0,0,0,4,AstraZeneca | KYM Biosciences | Shanghai Miracogen | Keymed Biosciences,17
+Loxo Oncology,Stamford,United States,2013,https://www.loxooncology.com/,Acquired,Startup,Antibody developer,Acquired by Eli Lilly in 2019,3,0,3,0,0,0,0,3,3,0,0,1,Eli Lilly,3
+MacroGenics,Rockville,United States,2000,https://www.macrogenics.com,Public,Established,ADC Platform Technology,-,3,1,0,2,0,0,0,2,1,1,0,1,IMMUNOGEN,3
+MediaPharma,L'Aquila,Italy,2010,https://www.mediapharma.it/,Private,Startup,Antibody developer,-,3,2,0,0,0,0,1,0,0,0,0,0,,0
+"Merck KGaA, Darmstadt, Germany",Darmstadt,Germany,1668,https://www.merckgroup.com/,Public,Established,-,-,3,0,1,0,2,0,0,4,2,2,0,5,Nektar Therapeutics | VelosBio | EMD Serono | Merck Sharp & Dohme | GILEAD,24
+Merck Sharp & Dohme,Rahway,United States,1891,https://www.msd.com,Public,Established,-,-,3,0,0,0,2,0,1,32,3,21,8,14,"Genmab | AstraZeneca | DAIICHI SANKYO | Endocyte | IMMUNOGEN | VelosBio | GOG Foundation | Merck KGaA, Darmstadt, Germany | RemeGen | Seagen | Strata Oncology | Astellas | Pfizer | GILEAD",54
+Millennium,Cambridge,United States,1993,-,Acquired,Established,Antibody developer,Acquired by Takeda in 2008,3,0,0,3,0,0,0,23,7,12,3,3,Takeda | Seagen | Samsung Medical Center,1
+NanoValent,Bozeman,United States,2015,https://www.nanovalent.com,Private,Startup,ADC Platform Technology,-,3,0,0,1,2,0,0,0,0,0,0,0,,58
+NBE Therapeutics,Basel,Switzerland,2012,https://www.nbe-therapeutics.com,Private,Startup,ADC Platform Technology,-,3,0,0,1,0,0,2,0,0,0,0,0,,0
+Nordic Nanovector,Oslo,Norway,2009,https://www.nordicnanovector.com,Acquired,Startup,ADC Platform Technology,-,3,0,0,1,0,1,1,1,0,1,0,4,Endocyte | Y-Biologics | Novartis | Legochem,24
+Regeneron,Tarrytown,United States,1988,https://www.regeneron.com,Public,Established,Antibody developer,-,3,1,0,1,0,0,1,2,0,1,1,1,ADC Therapeutics,1
+Shanghai Hansoh Biomedical,Shanghai,China,2004,https://www.hansoh.cn/en/,Public,Established,Antibody developer,-,3,0,0,3,0,0,0,6,3,3,0,0,,1
+Shanghai Miracogen,Shanghai,China,2014,https://www.miracogen.com,Private,Startup,ADC Platform Technology,-,3,0,0,1,2,0,0,10,1,6,3,1,Lepu Biopharma,72
+Almac Discovery,Craigavon,United Kingdom,2002,https://www.almacgroup.com,Private,Startup,-,-,2,2,0,0,0,0,0,0,0,0,0,0,,0
+Alteogen,Daejeon,South Korea,2008,http://www.alteogen.com/en/,Public,Startup,-,-,2,1,1,0,0,0,0,1,1,0,0,1,3SBIO,1
+Angiex,Cambridge,United States,2015,https://www.angiex.com,Private,Startup,-,-,2,1,1,0,0,0,0,1,1,0,0,1,Pfizer,1
+BioAtla,California,United States,2007,https://www.bioatla.com,Public,Startup,ADC Platform Technology,-,2,0,0,2,0,0,0,4,0,4,0,1,Sinobioway Biomedicine,8
+Biogen,Cambridge,United States,1978,https://www.biogen.com,Public,Established,-,-,2,0,1,0,0,0,1,1,1,0,0,1,Schering,1
+Celldex,New Jersey,United States,2004,https://www.celldex.com,Public,Established,antibody developer,-,2,0,0,1,1,0,0,2,0,2,0,0,,9
+Centrose,Madison,United States,2007,https://www.centrosepharma.com/,Private,Startup,-,-,2,2,0,0,0,0,0,0,0,0,0,1,Wisconsin Alumni Research Foundation - WARF,0
+Duality Biologics,Shanghai,China,2020,https://www.dualitybiologics.com/,Private,Startup,-,-,2,0,0,0,1,0,1,1,0,0,1,1,BioNTech,0
+Elevation Oncology,Boston,United States,2019,https://www.elevationoncology.com,Private,Startup,-,-,2,0,2,0,0,0,0,1,1,0,0,1,CSPC Pharmaceutical Group,2
+EMD Serono,Rockland,United States,1981,https://www.emdserono.com/,Public,Established,-,-,2,0,1,0,1,0,0,3,2,1,0,3,"GILEAD | Merck KGaA, Darmstadt, Germany | Nektar Therapeutics",24
+Formation Biologics (Forbius),Quebec,Canada,2011,https://www.forbius.com,Acquired,Startup,ADC Platform Technology,-,2,1,0,1,0,0,0,0,0,0,0,0,,1
+Ganymed,Mainz,Germany,2001,-,Acquired,Startup,-,Acquired by Astellas Pharma in 2016,2,2,0,0,0,0,0,0,0,0,0,1,Astellas,0
+Igenica,Burlingame,United States,2009,https://www.pierre-fabre.com/en,Acquired,Startup,-,Acquired by Xencor in 2015,2,1,0,0,0,0,1,0,0,0,0,0,,0
+ImmunoBiochem,Ontario,Canada,2007,https://www.immunobiochem.com/,Private,Startup,-,-,2,2,0,0,0,0,0,0,0,0,0,0,,0
+Jiangsu HengRui Medicine,Lianyungang,China,1970,https://www.hrs.com.cn,Public,Established,ADC Platform Technology,-,2,0,0,1,0,0,1,4,1,1,2,2,BeiGene | RemeGen,1
+Kolltan,New Haven,United States,2008,https://ir.celldex.com/news-releases/news-release-details/celldex-therapeutics-completes-acquisition-kolltan,Acquired,Startup,-,Acquired by Celldex Therapeutics in 2016,2,2,0,0,0,0,0,0,0,0,0,0,,0
+Medarex,Princeton,United States,1987,-,Acquired,Established,Antibody developer,Acquired by Bristol-Myers Squibb in 2009,2,0,1,1,0,0,0,0,0,0,0,1,Bristol Myers Squibb,1
+MediLink,Hangzhou,China,2020,-,Private,Startup,ADC Platform Technology,-,2,0,0,2,0,0,0,4,1,3,0,0,,2
+Multitude,Shanghai,China,2019,https://www.multitudetherapeutics.info/,Private,Startup,Antibody Developer,-,2,0,2,0,0,0,0,1,1,0,0,0,,2
+Mundipharma EDO,Cambridge,United Kingdom,2008,https://www.mundipharma.com,Private,Startup,-,-,2,0,0,0,0,0,2,0,0,0,0,0,,0
+OBI Pharma,Taipei,Taiwan,2002,https://www.obipharma.com,Public,Startup,ADC Platform Technology,-,2,0,0,2,0,0,0,1,0,1,0,1,Biosion (China),1
+Oncomatryx,Bilbao,Spain,2009,https://oncomatryx.com/,Private,Startup,-,-,2,1,1,0,0,0,0,1,1,0,0,0,,2
+ProfoundBio,Suzhou,China,2019,https://www.profoundbio.com,Acquired,Startup,ADC Platform Technology,-,2,0,0,1,0,0,1,1,0,1,0,0,,2
+Rinat,South San Francisco,United States,2001,https://www.rinatcorp.com/,Acquired,Startup,Antibody Developer,Acquired by Pfizer in 2006,2,0,0,0,0,0,2,0,0,0,0,2,Pfizer | WYETH,0
+Shanghai Fosun,Shanghai,China,1994,https://www.fosunpharma.com,Public,Established,-,-,2,0,0,0,2,0,0,1,0,0,1,1,Legochem,72
+Shanghai Henlius,Shanghai,China,2010,https://www.henlius.com,Public,Startup,-,-,2,0,2,0,0,0,0,2,2,0,0,0,,1
+Sorrento Therapeutics,California,United States,1989,https://www.sorrentotherapeutics.com,Public,Startup,ADC Platform Technology,-,2,0,0,1,0,0,1,3,1,2,0,0,,2
+Tarveda,Watertown,United States,2011,-,Acquired,Startup,ADC Platform Technology,Acquired by Centrose in 2022,2,0,0,2,0,0,0,0,0,0,0,0,,0
+Wilex,Munich,Germany,1997,-,Public,Established,ADC Platform Technology,Subsumed within Heidelberg Pharma,2,2,0,0,0,0,0,0,0,0,0,2,MabVax | Heidelberg Pharma,0
+Xenikos,Nijmegen,Netherlands,2009,https://www.xenikos.com,Private,Startup,-,-,2,0,0,0,2,0,0,0,0,0,0,0,,0
+Y-Biologics,-,South Korea,2007,https://ybiologics.com/en/,Private,Startup,Antibody Developer,-,2,0,0,0,0,0,2,0,0,0,0,2,Nordic Nanovector | Legochem,0
+Zymeworks,Vancouver,Canada,2003,https://www.zymeworks.com,Public,Startup,Antibody developer,-,2,0,1,1,0,0,0,0,0,0,0,3,Exelixis | Iconic | BeiGene,10
+3SBIO,Shenyang,China,1993,http://www.3sbio.com/,Public,Established,-,-,1,0,1,0,0,0,0,0,0,0,0,1,Alteogen,1
+A&G,Columbia,United States,2000,http://agpharma.com/,Private,-,Antibody Developer,-,1,0,0,0,0,0,1,1,1,0,0,0,,0
+Active Biotech AB,Lund,Sweden,1998,https://www.activebiotech.com/,Public,Established,Antibody Developer,-,1,0,0,0,1,0,0,3,2,0,1,0,,9
+Adcentrx,"San Diego, CA",United States,2021,https://www.adcentrx.com/,Private,-,ADC Platform Technology,-,1,0,1,0,0,0,0,1,1,0,0,0,,1
+Adolor Corp,Exton,United States,1994,-,Acquired,Established,-,Acquired by Cubist Pharmaceuticals in 2011,1,1,0,0,0,0,0,0,0,0,0,0,,0
+Affinicon,Aarhus,Denmark,2013,http://www.affinicon.com/,Private,-,ADC Platform Technology,-,1,0,0,0,1,0,0,0,0,0,0,0,,35
+Alethia,Montreal,Canada,2002,http://alethiabio.com/,Private,-,Antibody Developer,-,1,0,0,0,0,0,1,0,0,0,0,0,,0
+Alfasigma,Bologna,Italy,1948,https://www.alfasigma.com/,Private,Established,-,-,1,1,0,0,0,0,0,0,0,0,0,0,,0
+Alphamab Oncology,Suzhou,China,2011,https://www.alphamaboncology.com/,Public,Startup,Antibody Developer,-,1,0,1,0,0,0,0,1,1,0,0,0,,1
+Antengene,Shanghai,China,2017,https://www.antengene.com/,Public,Startup,Antibody Developer,-,1,0,1,0,0,0,0,0,0,0,0,0,,0
+Asana BioSciences,Bridgewater,United States,2014,www.asanabiosciences.com,Private,-,ADC Platform Technology,-,1,0,1,0,0,0,0,0,0,0,0,0,,1
+Aspyrian,"San Diego, CA",United States,2010,,Private,-,Antibody Developer,-,1,0,0,0,1,0,0,0,0,0,0,1,Rakuten Medical,0
+Bicycle Therapeutics,Cambridge,United Kingdom,2009,https://bicycletherapeutics.com/,Public,Startup,ADC Platform Technology,-,1,1,0,0,0,0,0,0,0,0,0,0,,0
+BiOneCure Therapeutics Inc,Maryland,United States,2017,https://www.bionecure.com/,Private,-,Antibody Developer,-,1,0,0,1,0,0,0,1,0,1,0,0,,1
+BioRay,"San Diego, CA",United States,1991,https://www.bioraypharm.com/,Private,-,Antibody Developer,-,1,0,1,0,0,0,0,0,0,0,0,0,,0
+Biosion (China),Nanjing,China,2017,https://www.biosion.com,Private,Startup,Antibody Developer,-,1,0,0,1,0,0,0,0,0,0,0,1,OBI Pharma,1
+BioTest,Dreieich,Germany,1946,https://www.biotest.com,Public,Established,Antibody Developer,-,1,0,0,1,0,0,0,2,0,2,0,1,IMMUNOGEN,1
+Boehringer Ingelheim,Ingelheim am Rhein,Germany,1885,https://www.boehringer-ingelheim.com/,Private,Established,Antibody Developer,-,1,0,1,0,0,0,0,3,2,1,0,1,IMMUNOGEN,0
+Bolt,Redwood,United States,2015,https://www.boltbio.com/,Private,Startup,Antibody Developer,-,1,0,0,0,1,0,0,2,0,2,0,2,Bristol Myers Squibb | Roche,72
+Catalent,Somerset,United States,2007,https://www.catalent.com/,Public,Established,ADC Platform Technology,-,1,0,1,0,0,0,0,0,0,0,0,1,Triphase Accelerator Corporation,2
+Celgene,Summit,United States,1986,https://www.celgene.com/,Acquired,Established,-,Acquired by Bristol-Myers Squibb in 2019,1,0,0,1,0,0,0,6,4,2,0,5,Novartis | Sutro Biopharma | Bristol Myers Squibb | Seagen | Pfizer,5
+Cellerant Therapeutics,Newark,United States,2003,-,Acquired,Startup,-,-,1,0,1,0,0,0,0,0,0,0,0,0,,0
+Celltech,Slough,United Kingdom,1980,-,Acquired,Established,Antibody Developer,Acquired by UCB in 2004,1,0,0,1,0,0,0,0,0,0,0,2,Pfizer | WYETH,0
+Chiatai Tianqing,Nanjing,China,1969,https://www.cttq.com/en/about/Company-Profile.htm,Public,Established,-,-,1,0,0,1,0,0,0,6,3,3,0,0,,1
+Corbus,Norwood,United States,2009,https://www.corbuspharma.com/,Public,Startup,Both,-,1,0,0,1,0,0,0,1,0,1,0,1,CSPC Pharmaceutical Group,4
+CStone Pharmaceuticals,Suzhou,China,2015,https://www.cstonepharma.com/,Public,Startup,Antibody Developer,-,1,0,1,0,0,0,0,1,1,0,0,0,,3
+CureMeta,Boston,United States,2012,https://www.curemeta.com/,Private,Startup,Antibody Developer,-,1,1,0,0,0,0,0,0,0,0,0,0,,0
+Cytoguide ApS,Copenhagen,Denmark,2015,https://www.cytoguide.com/,Private,Startup,Antibody Developer,-,1,1,0,0,0,0,0,0,0,0,0,0,,0
+Debiopharm,Lausanne,Switzerland,1979,https://www.debiopharm.com/,Private,Established,-,-,1,0,0,1,0,0,0,0,0,0,0,1,IMMUNOGEN,0
+Emergence,Duisberg,Germany,2019,https://www.emergencebio.com/,Acquired,Startup,ADC Platform Technology,Acquired by Lilly in 2023,1,1,0,0,0,0,0,0,0,0,0,0,,0
+Esperance,Waltham,United States,2015,https://www.esperancepharma.com/,Private,Startup,Antibody Developer,-,1,0,0,0,0,0,1,0,0,0,0,0,,0
+Exelixis,Alameda,United States,1994,https://www.exelixis.com/,Public,Established,-,-,1,0,1,0,0,0,0,2,2,0,0,2,Iconic | Zymeworks,9
+Fortis Therapeutics,San Diego,United States,2020,https://fortistx.com/,Private,Startup,Antibody Developer,-,1,0,0,1,0,0,0,3,2,1,0,0,,1
+Fusion Pharmaceuticals Inc,Hamilton,Canada,2014,https://fusionpharma.com/,Public,Startup,Antibody Developer,-,1,0,0,1,0,0,0,1,1,0,0,1,AstraZeneca,2
+GamaMabs,Toulouse,France,2008,https://www.gamamabs.com/,Private,Startup,Antibody Developer,-,1,0,0,0,0,0,1,0,0,0,0,0,,0
+Genzyme,Cambridge,United States,1981,https://www.sanofi.com/,Acquired,Established,-,Acquired by Sanofi in 2011,1,1,0,0,0,0,0,0,0,0,0,0,,0
+Georgetown Translational (Oxis Biotech),Los Angeles,United States,2015,https://www.oxisbiotech.com/,Private,Startup,Antibody Developer,-,1,0,0,1,0,0,0,0,0,0,0,0,,1
+GILEAD,Foster City,United States,1987,https://www.gilead.com,Public,Established,-,-,1,0,0,0,0,1,0,62,10,39,13,25,"Novartis | Alliance Foundation Trials | UNICANCER | Varian Inc | EMD Serono | MFAR | Merck KGaA, Darmstadt, Germany | Arcus | Nektar Therapeutics | Eisai | NSABP Foundation | Roche | Array BioPharma | Seagen | Merck Sharp & Dohme | MedSIR | Pfizer | Paxman Coolers Limited | AstraZeneca | DAIICHI SANKYO | GOG Foundation | Bristol Myers Squibb | Immunomedics | Strata Oncology | Astellas",46
+Halozyme,San Diego,United States,1998,https://www.halozyme.com/,Public,Established,ADC Platform Technology,-,1,1,0,0,0,0,0,0,0,0,0,0,,0
+"Hangzhou DAC Biotechnology Co., Ltd",Hangzhou,China,2015,https://www.dacbio.com/,Private,Startup,ADC Platform Technology,-,1,0,1,0,0,0,0,1,1,0,0,0,,0
+Helix BioPharma,Aurora,Canada,1994,https://www.helixbiopharma.com/,Public,Established,Antibody Developer,-,1,0,0,0,1,0,0,3,0,2,1,2,Pharm-Olam International | Theradex,2
+"Holy Stone Healthcare Co., Ltd",Taipei,Taiwan,2001,https://www.hshc.com.tw/en,Public,Established,-,-,1,0,0,1,0,0,0,1,0,1,0,0,,0
+Inhibrx,La Jolla,United States,2010,https://www.inhibrx.com/,Public,Startup,Antibody Developer,-,1,0,1,0,0,0,0,0,0,0,0,0,,0
+Innate,Marseille,France,1999,https://www.innate-pharma.com/,Public,Established,Antibody Developer,-,1,0,0,0,0,0,1,0,0,0,0,1,AstraZeneca,0
+Keymed Biosciences,Chengdu,China,2016,https://www.keymedbio.com/,Public,Startup,Antibody Developer,-,1,0,0,1,0,0,0,0,0,0,0,3,Lepu Biopharma | AstraZeneca | KYM Biosciences,16
+Knoll (Europe),Ludwigshafen,Germany,1886,https://www.knoll.basf.com/,Acquired,Established,-,Acquired by BASF in 1990,1,0,0,0,0,1,0,0,0,0,0,1,Lonza Biologics,2
+Kodiak Sciences,Palo Alto,United States,2009,https://www.kodiak.com/,Public,Startup,Antibody Developer,-,1,0,0,0,1,0,0,2,0,0,2,0,,12
+KYM Biosciences,Hangzhou,China,2019,-,Acquired,Startup,Antibody Developer,Acquired by AstraZeneca,1,0,0,1,0,0,0,0,0,0,0,3,Lepu Biopharma | AstraZeneca | Keymed Biosciences,16
+LaNova,Shanghai,China,2019,https://www.lanovamedicines.com/en,Private,Startup,Antibody Developer,-,1,0,0,1,0,0,0,0,0,0,0,1,Turning Point therapeutics,0
+Ligand Pharmaceuticals,San Diego,United States,1987,https://www.ligand.com/,Public,Established,ADC Platform Technology,-,1,0,1,0,0,0,0,0,0,0,0,3,Astellas | Seagen | Agensys,0
+Lonza Biologics,Visp,Switzerland,1897,https://www.lonza.com/,Public,Established,ADC Platform Technology,-,1,0,0,0,0,1,0,0,0,0,0,1,Knoll (Europe),2
+Luzsana Biotechnology,Hangzhou,China,2019,https://www.luzsana.com/,Private,Startup,Antibody Developer,-,1,0,0,0,1,0,0,0,0,0,0,0,,72
+MabVax,San Diego,United States,2006,https://www.mabvax.com/,Acquired,Startup,Antibody Developer,-,1,1,0,0,0,0,0,0,0,0,0,2,Wilex | Heidelberg Pharma,0
+Mabwell (Shanghai),Shanghai,China,2017,https://www.mabwell.com/,Private,Startup,Antibody Developer,-,1,0,0,1,0,0,0,0,0,0,0,0,,0
+Magenta,Cambridge,United States,2016,https://www.magentatx.com/,Public,Startup,Antibody Developer,-,1,0,0,1,0,0,0,0,0,0,0,1,Heidelberg Pharma,0
+Menarini Ricerche,Florence,Italy,-,https://www.menarini.com/,Private,Established,-,-,1,0,1,0,0,0,0,0,0,0,0,1,Oxford BioTherapeutics,5
+Merrimack,Cambridge,United States,2000,https://www.merrimack.com/,Public,Established,Antibody Developer,-,1,0,0,0,1,0,0,0,0,0,0,0,,54
+MorphoSys AG,Planegg,Germany,1992,https://www.morphosys.com/,Acquired,Established,Antibody Developer,Acquired by Novartis in 2024,1,0,1,0,0,0,0,1,1,0,0,2,IMMUNOGEN | Bayer,0
+Morphotek,Exton,United States,2001,https://www.morphotek.com/,Acquired,Startup,Antibody Developer,Acquired by Eisai in 2007,1,0,0,0,1,0,0,0,0,0,0,1,Eisai,28
+Mythic Therapeutics,Cambridge,United States,2017,https://www.mythictx.com/,Private,Startup,ADC Platform Technology,-,1,0,1,0,0,0,0,1,1,0,0,0,,6
+NanoCarrier (Japan),Chiba,Japan,1996,https://www.nanocarrier.co.jp/,Public,Established,ADC Platform Technology,-,1,1,0,0,0,0,0,0,0,0,0,1,Eisai,0
+Nona Bioscience,Suzhou,China,2015,https://www.nonabio.com/,Private,Startup,Antibody Developer,-,1,0,0,0,0,0,1,0,0,0,0,1,Pfizer,0
+Onco-Pharmakon Inc,Montreal,Canada,2015,https://onco-pharmakon.com/,Private,Startup,Antibody Developer,-,1,1,0,0,0,0,0,0,0,0,0,0,,0
+Oncolinx,Boston,United States,2015,https://www.oncolinx.com/,Private,Startup,ADC Platform Technology,-,1,1,0,0,0,0,0,0,0,0,0,0,,0
+OncoTherapy Science (Japan),Tokyo,Japan,2001,https://www.oncotherapy.co.jp/,Public,Established,Antibody Developer,-,1,0,1,0,0,0,0,0,0,0,0,0,,0
+OnCusp Therapeutics,San Francisco,United States,2020,https://www.oncusptx.com/,Private,Startup,Antibody Developer,-,1,0,1,0,0,0,0,1,1,0,0,0,,1
+Open Innovation Partners,Boston,United States,2017,https://openinnovationpartners.com/,Private,Startup,-,-,1,0,1,0,0,0,0,1,1,0,0,3,AstraZeneca | MedImmune | Tanabe Research Laboratories USA,1
+"Orum Therapeutics USA, Inc",San Francisco,United States,2018,https://www.orumtx.com/,Private,Startup,Antibody Developer,-,1,0,1,0,0,0,0,1,1,0,0,0,,1
+Oxford BioMedica,Oxford,United Kingdom,1995,https://oxb.com/,Public,Established,-,-,1,0,0,1,0,0,0,0,0,0,0,2,Pfizer | WYETH,1
+Oxford BioTherapeutics,Oxford,United Kingdom,2004,https://www.oxfordbiotherapeutics.com/,Private,Startup,Antibody Developer,-,1,0,1,0,0,0,0,1,1,0,0,1,Menarini Ricerche,5
+Peregrine Pharmaceuticals,Tustin,United States,1981,https://www.peregrineinc.com/,Public,Established,Antibody Developer,-,1,0,0,0,0,0,1,0,0,0,0,0,,0
+Pharm-Olam International,Houston,United States,1994,https://www.pharm-olam.com/,Private,Established,-,-,1,0,0,0,1,0,0,1,0,1,0,1,Helix BioPharma,2
+PharmaMar,Madrid,Spain,1986,https://pharmamar.com/,Public,Established,ADC Platform Technology,-,1,1,0,0,0,0,0,0,0,0,0,0,,0
+Pierre Fabre,Castres,France,1962,https://www.pierre-fabre.com/,Private,Established,-,-,1,0,0,1,0,0,0,1,0,1,0,1,Roche,2
+Pyramid Biosciences,Boston,United States,2018,https://pyramidbio.com/,Private,Startup,Antibody Developer,-,1,0,0,1,0,0,0,0,0,0,0,1,"GeneQuantum (Suzhou, China)",1
+Pyxis Oncology,Cambridge,United States,2018,https://www.pyxisoncology.com/,Public,Startup,Antibody Developer,-,1,0,1,0,0,0,0,0,0,0,0,0,,0
+Rakuten Medical,Tokyo,Japan,2005,https://www.rakuten-med.com/,Private,Startup,Antibody Developer,-,1,0,0,0,1,0,0,0,0,0,0,1,Aspyrian,0
+Rongchang,Chongqing,China,1993,https://www.rongchang.com/index.php?v=listing&cid=32,Private,-,-,-,1,0,0,1,0,0,0,0,0,0,0,1,MabPlex,0
+Samsung Medical Center,Seoul,South Korea,1994,https://www.samsunghospital.com/,Public,Established,ADC Platform Technology,-,1,0,0,0,0,0,1,1,0,1,0,2,Millennium | Legochem,0
+Schering,Berlin,Germany,1885,https://www.bayer.com/,Acquired,Established,-,Acquired by Bayer in 2006,1,0,0,0,0,0,1,0,0,0,0,1,Biogen,0
+Seasun Biomaterials,Hangzhou,China,2014,https://www.seasunbio.com/,Private,Startup,-,-,1,0,0,0,0,0,1,0,0,0,0,1,Legochem,0
+Shanghai Institute Of Biological Products,Shanghai,China,-,-,Public,Established,-,-,1,0,1,0,0,0,0,1,1,0,0,0,,0
+Shanghai Junshi,Shanghai,China,2012,https://www.junshipharma.com/,Public,Startup,Antibody Developer,-,1,0,1,0,0,0,0,0,0,0,0,0,,0
+Shanghai Pharmaceuticals Holding,Shanghai,China,1994,https://www.sphchina.com/,Public,Established,-,-,1,0,1,0,0,0,0,1,1,0,0,0,,1
+Shenogen Pharma,Beijing,China,-,-,Private,-,-,-,1,1,0,0,0,0,0,0,0,0,0,0,,0
+Siamab,Newton,United States,2012,https://www.siamab.com/,Private,Startup,Antibody Developer,-,1,1,0,0,0,0,0,0,0,0,0,0,,0
+Sichuan Baili,Chengdu,China,-,-,Private,-,-,-,1,0,1,0,0,0,0,0,0,0,0,1,Systimmune,0
+Silverback,Seattle,United States,2016,https://silverbacktx.com/,Public,Startup,Antibody Developer,-,1,0,0,0,1,0,0,0,0,0,0,0,,53
+Sino Biopharmaceutical,Hong Kong,China,1997,https://www.sinobiopharm.com/,Public,Established,-,-,1,0,1,0,0,0,0,0,0,0,0,0,,1
+Sinobioway Biomedicine,Beijing,China,-,-,Private,-,-,-,1,0,0,1,0,0,0,0,0,0,0,1,BioAtla,8
+SOTIO Bio,Prague,Czech Republic,2010,https://www.sotio.com/,Private,Startup,Antibody Developer,-,1,0,0,0,1,0,0,3,0,2,1,0,,5
+"Synthon Pharmaceuticals Durham, NC",Durham,United States,1991,https://www.synthon.com/,Acquired,-,-,Acquired by Synthon Holding B.V. in 2015,1,0,0,0,1,0,0,0,0,0,0,1,Byondis,58
+Tallac Therapeutics,Burlingame,United States,2018,https://tallactherapeutics.com/,Private,Startup,Antibody Developer,-,1,0,0,1,0,0,0,1,0,1,0,0,,2
+Tanabe Research Laboratories USA,San Diego,United States,-,https://www.tanabe-usa.com/,Private,Established,Antibody Developer,-,1,0,1,0,0,0,0,0,0,0,0,3,Open Innovation Partners | AstraZeneca | MedImmune,1
+Theratechnologies,Montreal,Canada,1993,https://www.theratech.com/,Public,Established,Antibody Developer,-,1,0,0,0,1,0,0,0,0,0,0,0,,53
+TOT Biopharm,Suzhou,China,2010,https://www.totbiopharm.com/,Public,Established,Antibody Developer,-,1,0,0,0,1,0,0,0,0,0,0,0,,0
+Triphase Accelerator Corporation,Toronto,Canada,2011,https://triphaseco.com/,Private,Startup,Antibody Developer,-,1,0,1,0,0,0,0,1,1,0,0,1,Catalent,2
+Tubulis,Munich,Germany,2019,https://tubulis.com/,Private,Startup,ADC Platform Technology,-,1,0,0,1,0,0,0,1,0,1,0,0,,1
+Turning Point therapeutics,San Diego,United States,2013,https://www.tptherapeutics.com/,Acquired,Startup,Antibody Developer,Acquired by Bristol Myers Squibb in 2021,1,0,0,1,0,0,0,0,0,0,0,1,LaNova,0
+VelosBio,San Diego,United States,2017,https://velosbio.com/,Acquired,Startup,Antibody Developer,Acquired by Merck & Co. in 2020,1,0,0,0,1,0,0,0,0,0,0,2,"Merck KGaA, Darmstadt, Germany | Merck Sharp & Dohme",0
+"Vincerx Pharma, Inc",Palo Alto,United States,2017,https://vincerx.com/,Public,Startup,Antibody Developer,-,1,0,1,0,0,0,0,1,1,0,0,0,,1
+Visterra,Cambridge,United States,2008,https://www.visterrainc.com/,Acquired,Startup,Antibody Developer,Acquired by Otsuka Pharmaceutical in 2018,1,1,0,0,0,0,0,0,0,0,0,0,,0
+Westlake Therapeutics,Hangzhou,China,2019,https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.westlaketpx.com%2F&psig=AOvVaw3huPW8iL6H7uiEm8Xgbv4e&ust=1720252394662000&source=images&cd=vfe&opi=89978449&ved=0CAQQn5wMahcKEwiA7r_YtY-HAxUAAAAAHQAAAAAQBA,Private,Startup,ADC Platform Technology,-,1,0,1,0,0,0,0,1,1,0,0,0,,1
+Xuanzhu Biopharm,Beijing,China,2002,-,Private,Startup,ADC Platform Technology,-,1,0,1,0,0,0,0,1,1,0,0,0,,1
+ZielBio,Charlottesville,United States,2010,https://www.zielbio.com,Private,Startup,Antibody Developer,-,1,0,0,1,0,0,0,0,0,0,0,0,,0
+Zova Biotherapeutics,Hangzhou,China,2020,-,Private,Startup,-,-,1,0,0,0,0,0,1,0,0,0,0,1,Concortis,0
