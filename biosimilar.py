@@ -78,27 +78,6 @@ for col in ['Disease Name', 'Novel Drug Name', 'Reference Drug Generic Name']:
                 # Store canonical mapping for future references
                 canonical_values[lower_value] = value
 
-# Initialize session state
-if 'view' not in st.session_state:
-    st.session_state.view = "Summary"
-if 'selected_company' not in st.session_state:
-    st.session_state.selected_company = None
-if 'selected_trial' not in st.session_state:
-    st.session_state.selected_trial = None
-if 'modal_opened' not in st.session_state:
-    st.session_state.modal_opened = False
-if "messages" not in st.session_state:
-    st.session_state.messages = []
-if 'logs' not in st.session_state:
-    st.session_state.logs = []
-
-with open('./logs/logs.json', 'r', encoding='utf-8') as f:
-    data = json.load(f)
-    if 'logs' not in data:
-        data = {'logs': []}
-    st.session_state.logs = data['logs']
-
-
 # Navigation function
 def navigate_to(view, company=None, trial=None):
     if company:
@@ -348,6 +327,26 @@ def chat_view():
 
 
 def run():
+    # Initialize session state
+    if 'view' not in st.session_state:
+        st.session_state.view = "Summary"
+    if 'selected_company' not in st.session_state:
+        st.session_state.selected_company = None
+    if 'selected_trial' not in st.session_state:
+        st.session_state.selected_trial = None
+    if 'modal_opened' not in st.session_state:
+        st.session_state.modal_opened = False
+    if "messages" not in st.session_state:
+        st.session_state.messages = []
+    if 'logs' not in st.session_state:
+        st.session_state.logs = []
+
+    with open('./logs/logs.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        if 'logs' not in data:
+            data = {'logs': []}
+        st.session_state.logs = data['logs']
+
     st.sidebar.image('./utils/lunartree-logo-256256.png', width=200)  # Adjust width as needed
     if st.sidebar.button("Home"):
         st.session_state.page = None
