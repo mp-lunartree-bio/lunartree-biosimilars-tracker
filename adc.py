@@ -61,11 +61,11 @@ index_name = 'adc'
 # Navigation function
 def navigate_to(view, company=None, trial=None):
     if company:
-        st.session_state.selected_company = company
+        st.session_state.selected_company_adc = company
     if trial:
-        st.session_state.selected_trial = trial
+        st.session_state.selected_trial_adc = trial
     
-    st.session_state.view = view
+    st.session_state.view_adc = view
     st.rerun()
 
 # Summary level view
@@ -111,15 +111,15 @@ def aggregate_view():
 def sponsor_view():
     st.title("Sponsor")
     # Selectbox to choose trial ID
-    if st.session_state.selected_company:
+    if st.session_state.selected_company_adc:
         sponsor = st.selectbox("Select a Sponsor", df_sponsors['Company Name'].dropna().unique(), 
-                            index=df_sponsors['Company Name'].dropna().unique().tolist().index(st.session_state.selected_company))
+                            index=df_sponsors['Company Name'].dropna().unique().tolist().index(st.session_state.selected_company_adc))
     else:
         sponsor = st.selectbox("Select a Sponsor", df_sponsors['Company Name'].dropna().unique())
     
     # Update session state with the selected trial ID
-    if sponsor != st.session_state.selected_company:
-        st.session_state.selected_company = sponsor
+    if sponsor != st.session_state.selected_company_adc:
+        st.session_state.selected_company_adc = sponsor
     
     sponsor_data = df_sponsors[df_sponsors['Company Name'] == sponsor].reset_index()
     filtered_drugs_df = df_drugs[df_drugs['developers'].apply(lambda x: pd.notna(x) and (sponsor in [dev.strip() for dev in x.split('|')]))]
@@ -148,15 +148,15 @@ def sponsor_view():
 def trial_view():
     st.title("Trial")
     # Selectbox to choose trial ID
-    if st.session_state.selected_trial:
+    if st.session_state.selected_trial_adc:
         trial_id = st.selectbox("Select a Trial ID", df_trials['id'].dropna().unique(), 
-                            index=df_trials['id'].dropna().unique().tolist().index(st.session_state.selected_trial))
+                            index=df_trials['id'].dropna().unique().tolist().index(st.session_state.selected_trial_adc))
     else:
         trial_id = st.selectbox("Select a Trial ID", df_trials['id'].dropna().unique())
     
     # Update session state with the selected trial ID
-    if trial_id != st.session_state.selected_trial:
-        st.session_state.selected_trial = trial_id
+    if trial_id != st.session_state.selected_trial_adc:
+        st.session_state.selected_trial_adc = trial_id
     
     trial_data = df_trials[df_trials['id'] == trial_id].iloc[0]
     
@@ -186,13 +186,13 @@ def handle_prompt():
         if len(prompt) > 2048:
             with st.chat_message("assistant"):
                 response = st.write_stream("Message is too large.")
-            st.session_state.messages.append({"role": "assistant", "content": response})
+            st.session_state.messages_adc.append({"role": "assistant", "content": response})
             return
         
-        st.session_state.messages.append({"role": "user", "content": prompt})
-        st.session_state.logs.append(prompt)
+        st.session_state.messages_adc.append({"role": "user", "content": prompt})
+        st.session_state.logs_adc.append(prompt)
         with open('./logs/adc_logs.json', 'w') as f:
-            data = {"logs": st.session_state.logs}
+            data = {"logs": st.session_state.logs_adc}
             json.dump(data, f, ensure_ascii=False, indent=4)
 
         with st.chat_message("user"):
@@ -214,7 +214,7 @@ def handle_prompt():
 
         with st.chat_message("assistant"):
             response = st.write_stream(response)
-        st.session_state.messages.append({"role": "assistant", "content": response})
+        st.session_state.messages_adc.append({"role": "assistant", "content": response})
 
 def chat_view():
     # Show title and description.
@@ -224,7 +224,7 @@ def chat_view():
     )
 
     # Display the existing chat messages via `st.chat_message`.
-    for message in st.session_state.messages:
+    for message in st.session_state.messages_adc:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
 
@@ -233,34 +233,34 @@ def chat_view():
 
 def run():
     # Initialize session state
-    if 'view' not in st.session_state:
-        st.session_state.view = "Summary"
-    if 'selected_company' not in st.session_state:
-        st.session_state.selected_company = None
-    if 'selected_trial' not in st.session_state:
-        st.session_state.selected_trial = None
-    if 'modal_opened' not in st.session_state:
-        st.session_state.modal_opened = False
-    if "messages" not in st.session_state:
-        st.session_state.messages = []
-    if 'logs' not in st.session_state:
-        st.session_state.logs = []
+    if 'view_adc' not in st.session_state:
+        st.session_state.view_adc = "Summary"
+    if 'selected_company_adc' not in st.session_state:
+        st.session_state.selected_company_adc = None
+    if 'selected_trial_adc' not in st.session_state:
+        st.session_state.selected_trial_adc = None
+    if 'modal_opened_adc' not in st.session_state:
+        st.session_state.modal_opened_adc = False
+    if "messages_adc" not in st.session_state:
+        st.session_state.messages_adc = []
+    if 'logs_adc' not in st.session_state:
+        st.session_state.logs_adc = []
 
     with open('./logs/adc_logs.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
         if 'logs' not in data:
             data = {'logs': []}
-        st.session_state.logs = data['logs']
-        
+        st.session_state.logs_adc = data['logs']
+
     st.sidebar.image('./utils/lunartree-logo-256256.png', width=200)  # Adjust width as needed
     if st.sidebar.button("Home"):
-        st.session_state.page = None
+        st.session_state.page_adc = None
         st.rerun()
 
     st.sidebar.title("LunarTree ADC Tracker")
 
     view = st.sidebar.radio("Select a view", ["Summary", "Sponsor", "Trial"], 
-                            index=["Summary", "Sponsor", "Trial"].index(st.session_state.view))
+                            index=["Summary", "Sponsor", "Trial"].index(st.session_state.view_adc))
 
     # Buttons for website, LinkedIn, and email
     st.sidebar.markdown("## Connect with Us")
@@ -273,16 +273,16 @@ def run():
     st.sidebar.markdown("contact@lunartree.bio")
 
     # Update the session state view if the radio button changes
-    if view != st.session_state.view:
-        st.session_state.view = view
+    if view != st.session_state.view_adc:
+        st.session_state.view_adc = view
         st.rerun()
 
     # Display the correct view based on session state
-    if st.session_state.view == "Summary":
+    if st.session_state.view_adc == "Summary":
         aggregate_view()
-    elif st.session_state.view == "Sponsor":
+    elif st.session_state.view_adc == "Sponsor":
         sponsor_view()
-    elif st.session_state.view == "Trial":
+    elif st.session_state.view_adc == "Trial":
         trial_view()
     else:
         trial_view()
@@ -291,8 +291,8 @@ def run():
     # Modal component
     modal = Modal("Welcome to the ADC Tracker!", key="modal")
 
-    if not st.session_state.modal_opened:
-        st.session_state.modal_opened = True
+    if not st.session_state.modal_opened_adc:
+        st.session_state.modal_opened_adc = True
         modal.open()
 
     if modal.is_open():
