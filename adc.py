@@ -254,7 +254,7 @@ def run():
 
     st.sidebar.image('./utils/lunartree-logo-256256.png', width=200)  # Adjust width as needed
     if st.sidebar.button("Home"):
-        st.session_state.page_adc = None
+        st.session_state.page = None
         st.rerun()
 
     st.sidebar.title("LunarTree ADC Tracker")
